@@ -1,0 +1,55 @@
+<!-- Declaracion del documento --> 
+<!DOCTYPE html>
+<!-- Cuerpo o funcion pricipal -->
+<html lang="es">
+    <!-- Encabezado -->
+    <head>
+        <!-- Agregar Acentos -->
+        <meta charset="UTF-8">
+        <!--  Nombre del encabezado -->
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <!-- Titulo del encabezado -->
+        <title>DSM41</title>
+        <!-- Enlazar al CSS -->
+        <link rel="stylesheet" href="index.designer.css">        
+    </head>
+
+    <!-- Cuerpo del HTML -->
+    <body>
+        <!-- crear panel  contenedor -->
+        <div id= "Panel">
+            <titulo id="Label_1"> Calculadora </titulo>
+            <br/>
+            <input id="Pantalla" type="text">
+            <br/>
+            <!-- Botones -->
+            <button id="BtnLimpiar" class="Operadores" onclick="BtnLimpiar_Click()">AC</button>
+            <button id="BtnEliminar" class="Operadores" onclick="BtnEliminar_Click()">DEL</button>
+            <button id="BtnPotencia"class="Operadores" onclick="BtnPotencia_Click()">^</button>
+            <button id="BtnDividir"class="Operadores"onclick="BtnDividir_Click()">÷</button>
+            <br/>
+            <button id="BtnSiete" onclick="BtnSiete_Click()">7</button>
+            <button id="BtnOcho" onclick="BtnOcho_Click()">8</button>
+            <button id="BtnNueve" onclick="BtnNueve_Click()">9</button>
+            <button id="BtnMultiplicar" class="Operadores" onclick="BtnMultiplicar_Click()">x</button>
+            <br/>
+            <button id="BtnCuatro" onclick="BtnCuatro_Click()">4</button>
+            <button id="BtnCinco" onclick="BtnCinco_Click()">5</button>
+            <button id="BtnSeis" onclick="BtnSeis_Click()">6</button>
+            <button id="BtnRestar" class="Operadores" onclick="BtnRestar_Click()">-</button>
+            <br/>
+            <button id="BtnUno" onclick="BtnUno_Click()">1</button>
+            <button id="BtnDos" onclick="BtnDos_Click()">2</button>
+            <button id="BtnTres" onclick="BtnTres_Click()">3</button>
+            <button id="BtnSumar" class="Operadores" onclick="BtnSumar_Click()">+</button>
+            <br/>
+            <button id="BtnCero" onclick="BtnCero_Click()">0</button>
+            <button id="BtnPunto" onclick="BtnPunto_Click()">.</button>
+            <button id="BtnIgual" class="IgualOperator" onclick="BtnIgual_Click()">=</button>   
+            <br/>     
+            <Lerma id="Label_2">copyright Hector Lerma 2025</Lerma>       
+        </div>
+        <!-- Enlazar al JavaScript -->
+        <script src="programa.js"> </script>
+    </body>
+</html>
