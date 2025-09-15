@@ -71,8 +71,20 @@ button:hover{
     width: calc(50% - 10px); 
 }
 
+#BtnLimpiar{
+    background-color:  #1767c7;
+}
+ 
+#BtnLimpiar:hover{
+    background-color:  #092bec;
+}
+
 .IgualOperator{
-    background-color: #1767c7
+    background-color: #3c79c4;
+}
+
+.IgualOperator:hover{
+    background-color:  #092bec;
 }
 
 /* Diseño de las etiquetas  */
