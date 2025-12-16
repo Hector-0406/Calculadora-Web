@@ -11,20 +11,24 @@
         <!-- Titulo del encabezado -->
         <title>Calculadora</title>
         <!-- Enlazar al CSS -->
-        <link rel="stylesheet" href="index.designer.css"> 
-        <!-- Icono del encabezado -->      
-        <link rel="icon" href="Iconos/Calculator.png"> 
-        <!-- Icono en la pantalla principal del Iphone -->
-        <link rel="apple-touch-icon" href="Iconos/Calculator.png">
-        <!-- Icono en la pantalla principal del Android -->
-        <link rel="manifest" href="/App Web/manifest.json">
+        <link rel="stylesheet" href="style.css"> 
+        <!-- Iconos para android -->
+        <link rel="manifest" href="manifest.json" />
+        <!-- Icono para IOS -->
+        <link rel="apple-touch-icon" type="image/png" href="icons/ios_180.png">
+        <!-- Icono para WEB -->
+        <link rel="shortcut icon" type="image/png" href="icons/favicon.png" />
+        <!-- add to homescreen for ios -->
+        <meta name="mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-mobile-web-app-title" content="Calculator" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
     </head>
 
     <!-- Cuerpo del HTML -->
     <body>
         <!-- crear panel  contenedor -->
-        <div id= "Panel">
-            <titulo id="Label_1"> Calculadora </titulo>
+        <div id="Panel">
             <br/>
             <input id="Pantalla" type="text">
             <br/>
@@ -53,9 +57,9 @@
             <button id="BtnPunto" onclick="BtnPunto_Click()">.</button>
             <button id="BtnIgual" class="IgualOperator" onclick="BtnIgual_Click()">=</button>   
             <br/>     
-            <Lerma id="Label_2">copyright Hector Lerma 2025</Lerma>       
+            <Lerma id="Label_2">copyright Hector Lerma</Lerma>       
         </div>
         <!-- Enlazar al JavaScript -->
-        <script src="programa.js"> </script>
+        <script src="script.js"> </script>
     </body>
 </html>
