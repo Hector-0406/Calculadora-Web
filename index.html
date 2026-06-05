@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora PWA</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <!-- Iconos para android -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- Icono para IOS -->
+    <link rel="apple-touch-icon" type="image/png" href="/assets/icons/ios_180.png" />
+    <!-- Icono para WEB -->
+    <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon.png" />
+    <!-- add to homescreen for ios -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Calculator" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="theme-color" content="#121212" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display">
+        <div id="history"></div>
+        <div id="result">0</div>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-blue" onclick="clearDisplay()">AC</button>
+        <button class="btn btn-blue" onclick="deleteLast()">DEL</button>
+        <button class="btn btn-orange" onclick="appendOperator('**')">^</button>
+        <button class="btn btn-orange" onclick="appendOperator('/')">÷</button>
+
+        <button class="btn" onclick="appendNumber('7')">7</button>
+        <button class="btn" onclick="appendNumber('8')">8</button>
+        <button class="btn" onclick="appendNumber('9')">9</button>
+        <button class="btn btn-orange" onclick="appendOperator('*')">×</button>
+
+        <button class="btn" onclick="appendNumber('4')">4</button>
+        <button class="btn" onclick="appendNumber('5')">5</button>
+        <button class="btn" onclick="appendNumber('6')">6</button>
+        <button class="btn btn-orange" onclick="appendOperator('-')">-</button>
+
+        <button class="btn" onclick="appendNumber('1')">1</button>
+        <button class="btn" onclick="appendNumber('2')">2</button>
+        <button class="btn" onclick="appendNumber('3')">3</button>
+        <button class="btn btn-orange" onclick="appendOperator('+')">+</button>
+
+        <button class="btn btn-zero" onclick="appendNumber('0')">0</button>
+        <button class="btn" onclick="appendNumber('.')">.</button>
+        <button class="btn btn-purple" onclick="calculate()">=</button>
+      </div>
+    </div>
+
+    <script src="/assets/script.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("sw.js");
+      }
+    </script>
+  </body>
+</html>
