@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192px" height="192px">
+  <g transform="matrix(0.375, 0, 0, 0.375, 0, 0)">
+    <rect width="512" height="512" style="stroke: rgb(0, 0, 0); fill: rgb(255, 152, 0); stroke-width: 0px;"/>
+    <rect x="256" width="256" height="258" style="stroke: rgb(0, 0, 0); fill: rgb(94, 92, 230); stroke-width: 0px;" y="254"/>
+  </g>
+  <g transform="matrix(0.382442, 0, 0, 0.382437, -1.906883, -1.907136)">
+    <line style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: square; stroke-width: 10px;" x1="256" y1="507.03" x2="256" y2="4.987"/>
+    <line style="fill: none; stroke: rgb(0, 0, 0); stroke-linecap: square; stroke-width: 10px;" x1="507.023" y1="255.558" x2="4.986" y2="255.894"/>
+  </g>
+  <g style="" transform="matrix(0.351915, 0, 0, 0.359262, 6.584785, 5.701921)">
+    <path d="M 292.276 361.921 L 392.276 361.921 M 292.276 296.921 L 392.276 296.921" fill="none" stroke-linecap="round" stroke-linejoin="round" style="stroke-width: 32px; stroke: rgb(255, 255, 255);"/>
+    <path d="M 166.899 122.336 L 166.899 222.336 M 216.899 172.336 L 116.899 172.336" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px" style="stroke-width: 32; stroke: rgb(0, 0, 0);"/>
+    <path d="M 394.095 174.1 L 294.095 174.1" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px" style="stroke-width: 32; stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(1, 0, 0, 0.999999, 0, 0.000093)"/>
+    <path d="M 180.645 279.883 L 180.645 379.883 M 230.645 329.883 L 130.645 329.883" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32px" style="stroke-width: 32; stroke: rgb(0, 0, 0); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.711557, -0.702628, 0.702628, 0.711557, 0, -0.000008)"/>
+  </g>
+</svg>
